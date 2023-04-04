@@ -1,0 +1,58 @@
+.navbar {
+    z-index: 100;
+}
+
+.navbar.bg-light {
+    background-color: var(--olympus-navbar-primary) !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar.bg-light {
+        background-color: var(--olympus-navbar-secondary) !important;
+    }
+}
+
+.navbar.bg-dark {
+    background-color: var(--olympus-navbar-secondary) !important;
+}
+
+.navbar a{
+    color: var(--olympus-color-dark) !important;
+}
+
+.navbar.bg-dark a {
+    color: var(--olympus-color-clear) !important;
+}
+
+.navbar-brand img{
+    width: 250px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 600;
+}
+
+.navbar-expand-lg .flex-column.navbar-nav .nav-item {
+    padding: 0.8rem;
+}
+
+.connect-wallet {
+    text-transform: uppercase;
+    font-weight: bolder !important;
+}
+
+.wallet-adapter-dropdown .wallet-adapter-button {
+    width: 100%;
+}
+
+.gap-2 > .wallet-adapter-button.btn-primary {
+    display: block;
+}
+
+.navbar .input-group-text, .navbar .form-control {
+    background-color: var(--olympus-color-clear);
+}
+
+.navbar .form-control, .navbar .form-control::placeholder {
+    text-align: right;
+}

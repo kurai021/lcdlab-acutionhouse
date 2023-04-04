@@ -1,0 +1,37 @@
+.containerAuctions .cardContainer, .containerRaffles .cardContainer, .containerMarket .cardContainer, .containerMerch .cardContainer {
+    padding-top: var(--olympus-withnavbar-padding-top);
+}
+
+.card {
+    background-color: var(--olympus-card-bg) !important;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body .card-title, .card-body small, .card-body button, .modal-body .centeredDetails small {
+    font-weight: 600;
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.modal-header {
+    border-bottom: var(--olympus-modal-header-border-width) solid var(--olympus-modal-header-border-color) !important;
+}
+
+.modal-footer {
+    border-top: var(--olympus-modal-footer-border-width) solid var(--olympus-modal-footer-border-color) !important;
+}
+
+.modal-body .centeredDetails {
+    text-align: center;
+    padding-top: var(--olympus-card-centered-padding-top);
+}
+
+.modal-content {
+    background-color: var(--olympus-modal-bg) !important;
+}
